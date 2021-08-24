@@ -1,7 +1,4 @@
 .photo-grid {
-    margin-left: 48px;
-    margin-right: 48px;
-    margin-bottom: 92px;
     padding: 0;
 
     display: grid;
@@ -10,4 +7,6 @@
     /*grid-template-columns: 1fr,repeat(auto-fit, minmax(284px, 350px));*/
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 
+    max-width: 1200px;
+    margin: 0 auto 92px;
 }

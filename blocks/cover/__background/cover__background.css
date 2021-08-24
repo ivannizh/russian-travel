@@ -1,0 +1,17 @@
+.cover__background {
+    background-image: url(../../../vendor/images/cover__background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 740px;
+
+    display: flex;
+}
+
+/*.cover__background:after {*/
+/*    content: "";*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    padding-top: calc(740 / 1184 * 100%);*/
+/*}*/

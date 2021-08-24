@@ -1,4 +1,5 @@
 .header__lang-item {
     padding: 0;
     margin: 0 0 0 18px;
+    display: inline-block;
 }

@@ -1,14 +1,13 @@
-.place__link {
+.cover__subtitle{
     font-family: Inter, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    text-decoration-line: underline;
+
+    text-align: center;
 
     color: #FFFFFF;
-}
 
-.place__link:hover {
-    cursor: url('../../../vendor/images/pointer.png'), auto;
+    max-width: 360px;
 }
