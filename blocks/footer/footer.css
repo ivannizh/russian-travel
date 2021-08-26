@@ -6,13 +6,13 @@
     margin: 0 auto 24px;
 }
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1250px) {
     .footer {
         margin: 0 48px 24px;
     }
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 790px) {
     .footer {
         margin: 0 24px 92px;
 
