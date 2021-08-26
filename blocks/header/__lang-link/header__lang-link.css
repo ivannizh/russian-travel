@@ -2,6 +2,18 @@
     font-family: 'Inter', serif;
     color: white;
     text-decoration: none;
-    line-height: 28px;
+    line-height: 1.1;
     font-size: 24px;
+}
+
+@media screen and (max-width: 730px) {
+    .header__lang {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .header__lang {
+        font-size: 18px;
+    }
 }

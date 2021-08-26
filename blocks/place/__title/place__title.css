@@ -3,10 +3,22 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 1.06;
 
     color: #FFFFFF;
 
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 730px) {
+    .place__title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .place__title {
+        font-size: 32px;
+    }
 }

@@ -2,11 +2,25 @@
     font-family: Inter, serif;
     font-size: 96px;
     font-weight: 900;
-    line-height: 100px;
+    line-height: 1.04;
     color: white;
 
     /*max-width: 720px;*/
     text-align: center;
 
     margin: auto auto 32px;
+
+    max-width: 980px;
+}
+
+@media screen and (max-width: 730px) {
+    .lead__title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .lead__title {
+        font-size: 40px;
+    }
 }
