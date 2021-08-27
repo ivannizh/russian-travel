@@ -9,7 +9,7 @@
 
     opacity: 1;
 
-    transition: opacity ;
+    transition: opacity;
 
     transition-property: opacity;
     transition-duration: 0.5s;
