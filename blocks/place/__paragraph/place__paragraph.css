@@ -1,5 +1,5 @@
 .place__paragraph {
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -11,4 +11,8 @@
 
     /*min-width: 280px;*/
     width: 100%;
+}
+
+.place__paragraph:last-child {
+    margin: 0;
 }

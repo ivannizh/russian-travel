@@ -1,17 +1,3 @@
 .lead__image {
-
-}
-
-@media screen and (max-width: 1050px) {
-    .lead__image {
-        margin-left: -48px;
-        width: calc(100% + 96px);
-    }
-}
-
-@media screen and (max-width: 455px) {
-    .lead__image {
-        margin-left: -24px;
-        width: calc(100% + 48px);
-    }
+    width: 100%;
 }

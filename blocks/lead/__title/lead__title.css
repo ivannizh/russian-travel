@@ -1,5 +1,5 @@
 .lead__title {
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
     font-size: 96px;
     font-weight: 900;
     line-height: 1.04;
@@ -16,11 +16,14 @@
 @media screen and (max-width: 730px) {
     .lead__title {
         font-size: 60px;
+
+        margin: 0 24px 32px;
     }
 }
 
 @media screen and (max-width: 455px) {
     .lead__title {
         font-size: 40px;
+        margin: 0 16px 16px;
     }
 }
