@@ -8,6 +8,9 @@
     text-decoration: none;
 
     background-color: rgba(42, 44, 47, 0.3);
+
+    transition-property: background-color;
+    transition-duration: 0.5s;
 }
 
 .cover__link:hover {

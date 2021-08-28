@@ -8,11 +8,22 @@
 
     margin: 0 0 26px;
     padding: 0;
-
-    /*min-width: 280px;*/
-    width: 100%;
 }
 
 .place__paragraph:last-child {
-    margin: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 790px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
 }

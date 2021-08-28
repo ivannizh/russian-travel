@@ -4,9 +4,13 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: right;
 
     color: #FFFFFF;
+
+    margin: 0;
+    padding: 0;
+
+    min-width: 190px;
 }
 
 @media screen and (max-width: 455px) {

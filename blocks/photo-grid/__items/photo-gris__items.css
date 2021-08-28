@@ -6,29 +6,28 @@
     display: grid;
     gap: 16px;
 
-    /*grid-template-columns: 1fr,repeat(auto-fit, minmax(284px, 350px));*/
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
 
-    max-width: 1200px;
-    margin: 0 auto 92px;
+    max-width: 1184px;
+    margin: 0 auto 77px;
 
 }
 
 @media screen and (max-width: 1250px) {
     .photo-grid__items {
-        margin: 0 48px 92px;
+        margin: 0 48px 77px;
     }
 }
 
 @media screen and (max-width: 790px) {
     .photo-grid__items {
-        margin: 0 24px 60px;
+        margin: 0 24px 88px;
     }
 }
 
 
 @media screen and (max-width: 455px) {
     .photo-grid__items {
-        margin: 0 24px 16px;
+        margin: 0 16px 16px;
     }
 }

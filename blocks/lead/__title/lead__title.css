@@ -5,12 +5,11 @@
     line-height: 1.04;
     color: white;
 
-    /*max-width: 720px;*/
     text-align: center;
 
     margin: auto auto 32px;
 
-    max-width: 980px;
+    max-width: 720px;
 }
 
 @media screen and (max-width: 730px) {

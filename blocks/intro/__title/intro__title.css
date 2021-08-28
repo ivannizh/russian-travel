@@ -7,8 +7,10 @@
 
     color: #FFFFFF;
 
-    margin-bottom: 40px;
+    margin: 0 0 40px;
     max-width: 690px;
+
+    padding: 0;
 }
 
 @media screen and (max-width: 730px) {
