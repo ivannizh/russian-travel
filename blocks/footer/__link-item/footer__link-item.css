@@ -8,6 +8,6 @@
     .footer__link-item {
         display: block;
         margin-bottom: 32px;
-
+        line-height: 24px;
     }
 }

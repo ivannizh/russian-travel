@@ -1,2 +1,17 @@
 .photo-grid__item {
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
 }
+/*.photo-grid__item::after {*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    padding-bottom: calc(213 / 284 * 100%);*/
+/*}*/
+
+
